@@ -7,6 +7,7 @@ int main()
     b = (a>>n)|0;
     c = b<<n;
     printf("%d",c);
+    return 0;
 
     
      
