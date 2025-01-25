@@ -2,9 +2,12 @@
 
 int main()
 {
-    int a,n;
+    int a,n,b,c;
     scanf("%d %d",&a,&n);
-    int b = !((a>>n)&1);
-    printf("%d",b);
-    return 0;
+    b = (a>>n)|0;
+    c = b<<n;
+    printf("%d",c)
+
+    
+     
 }
