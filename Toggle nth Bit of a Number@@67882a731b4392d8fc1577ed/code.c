@@ -9,6 +9,7 @@ int main(){
         printf("%d",c);
     }
     else{
-        printf("%d",a^(1<<n));
+        printf("%d",a|(1<<n));
     }
+    return 0;
 }
