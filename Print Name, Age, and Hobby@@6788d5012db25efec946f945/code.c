@@ -2,7 +2,7 @@
 
 int main()
 {
-    char name[100],hobby[100];
+    char name,hobby;
     int age;
     scanf("%s %d %s",&name,&age,&hobby);
     printf("Name: %c\n",name);
