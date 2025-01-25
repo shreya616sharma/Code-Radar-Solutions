@@ -5,5 +5,5 @@ int main()
     int a,b;
     scanf("%d %d",&a,&b);
     printf("%u",a>>b);
-    retutn 0;
+    return 0;
 }
