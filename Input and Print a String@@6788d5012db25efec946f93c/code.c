@@ -3,7 +3,7 @@
 int main()
 {
     char str[32];
-    get (str);
+    gets(str);
     printf("You entered: %s",str);
     return 0;
 
