@@ -23,7 +23,7 @@ int main()
         }
         else{
             d = (float)b;
-            printf("%d",(a/b.0));
+            printf("%d",(a/b));
         }
     }
     return 0;
