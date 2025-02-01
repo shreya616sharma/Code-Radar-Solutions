@@ -14,9 +14,9 @@ int main()
     }
     else{
         for(int i = 1; i<=n; i++){
-            if((n%i == 0)){
+            if((n%i == 0))
                 cnt++;
-            }
+            
         }   
         if(cnt > 2){
             printf("Not Prime");
