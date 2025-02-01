@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a,y;
+    int x,y;
     scanf("%d %d",&x,&y);
     if(x>=0 && y>=0){
         printf("Same Sign");
