@@ -4,6 +4,7 @@
 int main()
 {
     int a,b;
+    float d;
     char c;
     scanf("%d %d %c",&a,&b,&c);
     
@@ -17,7 +18,13 @@ int main()
         printf("%d",(a*b));
     }
     else{
-        printf("%d",(a/b));
+        if( b == 0){
+            printf("error");
+        }
+        else{
+            d = (float)b;
+            printf("%d",(a/b.0));
+        }
     }
     return 0;
 }
