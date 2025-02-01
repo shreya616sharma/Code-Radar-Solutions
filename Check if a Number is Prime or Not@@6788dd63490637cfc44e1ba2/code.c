@@ -17,14 +17,14 @@ int main()
             if((n%i == 0)){
                 cnt++;
             }
-            
+        }   
         if(cnt > 2){
             printf("Not Prime");
         }
         else{
             printf("Prime");
         }
-        }
+        
     }
 
     return 0;
