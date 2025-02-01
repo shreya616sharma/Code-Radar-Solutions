@@ -12,7 +12,7 @@ int main() {
     // If number is less than/equal to 1,
     // it is not prime
     if (n <= 1)
-        printf("NOT prime");
+        printf("Not Prime");
     else {
 
         // Check for divisors from 1 to n
@@ -27,7 +27,7 @@ int main() {
         // If n is divisible by more than 2 numbers
         // then it is not prime
         if (cnt > 2)
-            printf("NOT prime");
+            printf("Not Prime");
 
         // else it is prime
         else
