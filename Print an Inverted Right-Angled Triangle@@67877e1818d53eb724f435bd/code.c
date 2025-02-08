@@ -8,7 +8,9 @@ int main()
         for(j=1;j<=(n-i);j++){
             printf("* ");           
         }
-         printf("\n");        
+        if(n-i != 0){
+            printf("\n");
+        }       
     }
     return 0;
 }
