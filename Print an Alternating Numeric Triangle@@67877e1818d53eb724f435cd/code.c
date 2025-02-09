@@ -7,13 +7,14 @@ int main(){
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         for(j=1;j<=i;j++){
-            if(i%2 !=0){
-                printf("%d ",k);
-                k =1-k;
-            }
-            else{
+            if(i%2 == 0){
                 printf("%d ",g);
                 g=1-g;
+                
+            }
+            else{
+                printf("%d ",k);
+                k =1-k;
             }
             // printf("%d ",k);
             // k = 1-k;
