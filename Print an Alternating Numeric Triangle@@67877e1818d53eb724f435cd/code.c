@@ -12,7 +12,7 @@ int main(){
                 k =1-k;
             }
             else{
-                printf("%d",g);
+                printf("%d ",g);
                 g=1-g;
             }
             // printf("%d ",k);
