@@ -5,19 +5,19 @@ int main()
     char n;
     scanf("%c",&n);
     switch(n){
-        case a:
+        case 'a':
         printf("Vowel");
         break;
-        case e:
+        case 'e':
         printf("Vowel");
         break;
-        case i:
+        case 'i':
         printf("Vowel");
         break;
-        case o:
+        case 'o':
         printf("Vowel");
         break;
-        case u:
+        case 'u':
         printf("Vowel");
         break;
         default:
